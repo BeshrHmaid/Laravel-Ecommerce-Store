@@ -1,0 +1,43 @@
+/* public/css/styles.css */
+
+/* Style the product list */
+ul.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* Style the "create product" link */
+.create-product-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.create-product-link:hover {
+    background-color: #0056b3;
+}
+.message{
+    background-color: #4CAF50; /* Green color for success message */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 70px; /* Add margin at the bottom to separate from other content */
+    position: absolute; /* Position the message absolutely */
+    top: 10px; /* Adjust the top position as needed */
+    left: 50%; /* Center the message horizontally */
+    transform: translateX(-50%); /* Center the message horizontally */
+}

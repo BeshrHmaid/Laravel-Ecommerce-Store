@@ -1,0 +1,96 @@
+/* showStyle.css */
+
+/* Centered container for content */
+.centered-container {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Style the product name */
+.product-name {
+    
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Change to your preferred text color */
+}
+
+/* Style the product price */
+.product-price {
+    font-size: 20px;
+    color: #007bff; /* Change to your preferred text color */
+    margin-bottom: 20px;
+}
+
+.product-image-container {
+    margin-bottom: 20px;
+}
+
+/* Style the product image */
+.product-image {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 3px solid #007bff; /* Add a border with your desired color */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style the "Edit" link */
+.edit-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.edit-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style success message */
+.alert.alert-success {
+    background-color: #4CAF50; /* Green color for success message */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 70px; /* Add margin at the bottom to separate from other content */
+    position: absolute; /* Position the message absolutely */
+    top: 10px; /* Adjust the top position as needed */
+    left: 50%; /* Center the message horizontally */
+    transform: translateX(-50%); /* Center the message horizontally */
+}
+
+/* Style the info message */
+.alert.alert-info {
+    background-color: #17a2b8; /* Blue color for info message */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 200px; /* Add margin at the bottom to separate from other content */
+    position: absolute; /* Position the message absolutely */
+    top: 20px; /* Adjust the top position as needed */
+    left: 50%; /* Center the message horizontally */
+    transform: translateX(-50%); /* Center the message horizontally */
+}
+
+
+
+/* Style the delete button */
+.delete-button {
+    background-color: #dc3545; /* Red color for delete button */
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red color on hover */
+}
